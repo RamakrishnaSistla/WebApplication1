@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.421302">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.19" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="framework2\Form1.cs" />
+    <Compile Remove="framework2\Form1.Designer.cs" />
+    <Compile Remove="framework2\Program.cs" />
+    <Compile Remove="framework2\Properties\AssemblyInfo.cs" />
+    <Compile Remove="framework2\Properties\Resources.Designer.cs" />
+    <Compile Remove="framework2\Properties\Settings.Designer.cs" />
+    <Compile Remove="frameworkupgrade\Form1.cs" />
+    <Compile Remove="frameworkupgrade\Form1.Designer.cs" />
+    <Compile Remove="frameworkupgrade\obj\Debug\net60-windows\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Remove="frameworkupgrade\obj\Debug\net60-windows\frameworkupgrade.GlobalUsings.g.cs" />
+    <Compile Remove="frameworkupgrade\obj\Debug\net8.0-windows\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Remove="frameworkupgrade\Program.cs" />
+    <Compile Remove="frameworkupgrade\Properties\Resources.Designer.cs" />
+    <Compile Remove="frameworkupgrade\Properties\Settings.Designer.cs" />
+    <Compile Remove="webapi\Controllers\WeatherForecastController.cs" />
+    <Compile Remove="webapi\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Remove="webapi\obj\Debug\net6.0\webapi.AssemblyInfo.cs" />
+    <Compile Remove="webapi\obj\Debug\net6.0\webapi.GlobalUsings.g.cs" />
+    <Compile Remove="webapi\Program.cs" />
+    <Compile Remove="webapi\WeatherForecast.cs" />
+  </ItemGroup>
+</Project>

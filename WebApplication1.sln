@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "applicationupgrade", "..\applicationupgrade\applicationupgrade.csproj", "{0FBA4A1B-9F6A-4D6E-90A5-022CF78DA675}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapplicationupgrade", "..\webapplicationupgrade\webapplicationupgrade.csproj", "{4906508A-B34A-4D15-A56C-8DF578286118}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapplication2", "..\webapplication2\webapplication2.csproj", "{B66DD115-B714-4267-A652-8B1C6F82BFAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "upgradethis", "..\upgradethis\upgradethis.csproj", "{F18091A4-8D37-431E-8E81-0C4868588D98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "upgrade", "..\upgrade\upgrade.csproj", "{B0E31430-E982-48BE-89B6-6B29427BCF6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "applicationforupgrade", "..\applicationforupgrade\applicationforupgrade.csproj", "{5EBA560C-1045-4BAA-8B08-8D44DC390E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1.csproj", "{84960AD0-AE99-45CA-A393-9CE8067F5813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FBA4A1B-9F6A-4D6E-90A5-022CF78DA675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBA4A1B-9F6A-4D6E-90A5-022CF78DA675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBA4A1B-9F6A-4D6E-90A5-022CF78DA675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBA4A1B-9F6A-4D6E-90A5-022CF78DA675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84960AD0-AE99-45CA-A393-9CE8067F5813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84960AD0-AE99-45CA-A393-9CE8067F5813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84960AD0-AE99-45CA-A393-9CE8067F5813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84960AD0-AE99-45CA-A393-9CE8067F5813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF44BA94-8CA7-4160-BC6F-97EC310A12C3}
+	EndGlobalSection
+EndGlobal
